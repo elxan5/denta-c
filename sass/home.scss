@@ -1,0 +1,527 @@
+$mainColor: #18AFD3;
+$secColor:#F57E57;
+$thrdColor:#E5E5E5;
+$frthColor:#038EAF;
+$myFont:'Oswald', sans-serif;
+$lato: 'Lato', sans-serif;
+*{
+  transition: .5s all ease;
+}
+.active{
+  background-color: #18AFD3;
+}
+
+h1, h4, span{
+  font-family:$myFont;
+}
+p{
+  font-family: $lato;
+}
+.padRemove{
+  padding: 0;
+}
+body, html{
+  padding: 0;
+  margin:0 auto;
+}
+body{
+  overflow-x:hidden;
+}
+.header{
+  position: absolute;
+  z-index: 1;
+}
+
+.overlay{
+  top:0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-color:rgba(84, 138, 171, 0.57);
+  height:100%;
+}
+/*Header*/
+#home{
+  #myCarousel{
+    .header{
+      padding: 35px 18px;
+      .col-md-10{
+        span{
+          a{
+            font-family: $lato;
+            font-size: 15px;
+            color:white;
+            position: relative;
+            left:25px;
+          }
+        }
+      }
+      .circle{
+        height:50px;
+        width:50px;
+        border-radius:100%;
+        background-color:$mainColor;
+        i{
+          line-height: 50px;
+          color:white;
+          font-size:30px;
+          margin-left:15px;
+        }
+      }
+    }
+    ol{
+      top:800px;
+      li{
+        margin-right:20px;
+        background-color:$secColor !important;
+        border:none;
+        box-shadow: 0px 0px 30px 6px $secColor;
+      }
+    }
+  }
+}
+
+.overlay{
+  .col-md-4{
+    border-radius: 10px;
+    margin-top:170px;
+    z-index: 0;
+    height:400px;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    p,h3{
+      color:gray;
+    }
+    input, select{
+      border:none;
+      width: 100%;
+      height: 50px;
+      border-radius: 10px;
+      outline: none;
+    }
+    button{
+      &:hover{
+        background-color: $mainColor;
+      }
+      margin-top:30px;
+      height:45px;
+      width: 200px;
+      border-radius: 25px;
+      background: $secColor;
+      outline: none;
+      border: none;
+      span{
+        color:white;
+      }
+    }
+  }
+  .col-md-8{
+    h1{
+      text-align:left;
+      color:white;
+      font-size: 3.7em;
+      margin-top:250px;
+      font-weight: 400;
+    }
+    p{
+      color:white;
+      font-size:1.5em;
+    }
+    .mybtn{
+      cursor: pointer;
+      &:hover{
+        background-color: $mainColor;
+      }
+      height:45px;
+      width: 200px;
+      border-radius: 25px;
+      background: $secColor;
+      outline: none;
+      border: none;
+      span{
+        color:white;
+      }
+    }
+  }
+}
+/*Header ended*/
+/*Work Table*/
+.workTable{
+  margin-top:40px;
+  margin-bottom: 40px;
+  .container{
+    .row{
+      margin-bottom:40px;
+      .col-md-10{
+        p{
+          font-family: $lato;
+          margin-top:100px;
+        }
+        &:last-child{
+          span{
+            font-family: $lato;
+          }
+          h3{
+            margin-top:100px;
+          }
+        }
+      }
+      .col-md-6{
+        .col-md-2{
+          border-radius:7px 0px 0px 7px;
+          height: 260px;
+          background-color: $mainColor;
+          span{
+            margin-left:10px;
+            height:250px;
+            writing-mode: tb-rl;
+            transform:rotate(-180deg);
+            font-size: 1.2em;
+            white-space: nowrap;
+            color:white;
+            text-align: center;
+          }
+        }
+        .col-md-10{
+          border-radius: 0px 7px 7px 0px;
+          h3{
+            a{
+            color:black;
+            }
+          }
+          p{
+            font-size: 1.1em;
+          }
+          i{
+            margin-top: 20px;
+            float: left;
+            color:$secColor;
+            font-size:2.4em;
+            line-height: 80px;
+          }
+          height: 260px;
+          background-color:#F1F3F9;
+        }
+      }
+    }
+  }
+}
+/*Work Table ended*/
+.container{
+  .col-md-4{
+    .col-md-10{
+      h1{
+        font-size:1.8em;
+        text-align: left;
+        margin-left: 30px;
+      }
+      p{
+        color:gray;
+        margin-left:30px;
+      }
+    }
+    .col-md-2{
+      .circle{
+        i{
+          color:white;
+          line-height: 80px;
+          margin-left:22px;
+          font-size:3em;
+        }
+        border-radius: 100%;
+        height:80px;
+        width: 80px;
+        background: $secColor;
+      }
+    }
+    background: white;
+  }
+  h1{
+    text-align: center;
+    font-size: 3.3em;
+    font-weight: 400;
+  }
+  .line{
+    height: 4px;
+    width: 100px;
+    background: $secColor;
+    margin: 0 auto;
+  }
+}
+.why{
+  margin-bottom:80px;
+}
+
+/*Our Services*/
+
+.ourS{
+  background-color:#F1F3F9;
+}
+.ourServices{
+  margin-bottom: 80px;
+    button{
+      &:hover{
+        background-color: $mainColor;
+      }
+      span{
+        color:white;
+        text-align: center;
+        line-height: 45px;
+        font-size: 1.1em;
+      }
+      border-radius: 25px;
+      border: none;
+      height: 45px;
+      width: 180px;
+      background-color: $secColor;
+    }
+  .col-md-4{
+    .banner{
+    span{
+      color:white;
+      font-size: 1.5em;
+      line-height: 45px;
+      margin-left:10px;
+    }
+      &:hover{
+        background-color: $secColor;
+      }
+      position: relative;
+      left:120px;
+      bottom:60px;
+      height:45px;
+      width: 230px;
+      border-radius: 8px;
+      background: $mainColor;
+    }
+    background-color: #F1F3F9;
+  }
+  p{
+    text-align: center;
+    color:gray;
+  }
+  h1{
+    font-weight: 400;
+    font-size:3.3em;
+    text-align:center;
+  }
+  .line{
+    height: 4px;
+    width: 100px;
+    background: $secColor;
+  }
+}
+
+/*testimonials*/
+
+.fquote{
+  background-color: #18AFD3;
+}
+.tquote, .squote{
+  background-color: lightgray;
+}
+
+.testimonials{
+  .rightTest{
+    height:570px;
+    .quotes{
+      .btns{
+        div{
+          &:hover{
+            background-color: $mainColor;
+          }
+          width: 12px;
+          height: 12px;
+          border-radius: 100%;
+          float: left;
+          margin-right: 20px;
+          position: relative;
+          top: 380px;
+          cursor: pointer;
+        }
+      }
+      .sliders{
+        .bir, .iki, .uch{
+          position:absolute;
+          .row{
+            .col-md-10{
+              .department{
+                span{
+                  color:gray;
+                  font-family: $lato;
+                  font-size: 1em;
+                }
+              }
+              .name{
+                span{
+                  color:$mainColor;
+                  font-size: 1.8em;
+                  font-family: $lato;
+                  font-style: bold;
+                }
+              }
+            }
+            .img-circle{
+              border-radius: 50%;
+            }
+          }
+          p{
+            color:#868686;
+            font-style: italic;
+            font-size: 1.8em;
+
+          }
+          h1{
+            i{
+              color:$mainColor;
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+    h1{
+      margin-top: 40px;
+      font-size:3.5em;
+      text-align: left;
+      font-weight: 400;
+    }
+    .line{
+      text-align:left;
+      height: 4px;
+      width: 100px;
+      background: $secColor;
+    }
+  }
+  .leftTest{
+    button{
+      &:hover{
+        background-color: $mainColor;
+      }
+      span{
+        color:white;
+        text-align: center;
+        line-height: 45px;
+        font-size: 1.3em;
+      }
+      border-radius: 25px;
+      border: none;
+      height: 45px;
+      width: 180px;
+      background-color: $secColor;
+    }
+    h1{
+      font-size:4.2em;
+      font-weight: 400;
+      color:white;
+      margin-top:170px;
+    }
+    p{
+      color:white;
+    }
+    height:570px;
+    background-repeat: no-repeat;
+    background-image: url(..//img-home/background-05-960x678.jpg);
+  }
+}
+.iki, .uch{
+  display: none;
+}
+
+/*Our Team*/
+.t1{
+  background-color: $mainColor;
+}
+.t2, .t3{
+  background-color: lightgray;
+}
+.ourTeam{
+  .buttons{
+    display: table;
+    margin: 0 auto;
+    .t1, .t2, .t3{
+      margin-top: 300px;
+      &:hover{
+        background-color: $mainColor;
+      }
+      position: relative;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      float: left;
+      top:0;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+  .team{
+    .team1, .team2, .team3{
+      position: absolute;
+      .col-md-4{
+        background-color: #F1F3F9;
+        button{
+          &:hover{
+            background-color: $mainColor;
+          }
+          background-color: $secColor;
+          height:40px;
+          width: 150px;
+          border-radius: 30px;
+          border:none;
+          span{
+            color:white;
+            font-size: 1.1em;
+          }
+        }
+        .info{
+          p{
+            color:gray;
+            font-size: 1.1em;
+          }
+        }
+        .bio{
+          .col-md-8{
+            .phone{
+              i{
+                color:$mainColor;
+                font-size: 2em;
+                float: left;
+                margin-right:10px;
+              }
+              p{
+                float: left;
+                font-family: $myFont;
+                font-size: 1.3em;
+                letter-spacing: .5px;
+              }
+            }
+            span{
+              color:gray;
+              font-family: $lato;
+            }
+            h2{
+              color:$mainColor;
+              font-family: $lato;
+              font-weight: 600;
+              margin:0;
+            }
+          }
+        }
+      }
+    }
+  }
+  height:600px;
+  background-color: #F1F3F9;
+  h1{
+    margin-top:80px;
+    font-size:3.5em;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.team2{
+  right:-200%;
+}
+.team3{
+  right:-300%;
+}

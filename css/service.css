@@ -1,0 +1,427 @@
+* {
+  transition: .3s all ease;
+  /*font-family:'Oswald', sans-serif;*/ }
+
+.active {
+  display: block; }
+
+h1, h4, span {
+  font-family: "Oswald", sans-serif; }
+
+.padRemove {
+  padding: 0; }
+
+/*Header*/
+#services .header .white {
+  padding: 38px 15px 0;
+  height: 160px; }
+  #services .header .white .col-md-3 img {
+    cursor: pointer; }
+  #services .header .white .aqua {
+    background-color: #18AFD3;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px black;
+    z-index: 1; }
+    #services .header .white .aqua ul {
+      list-style: none; }
+      #services .header .white .aqua ul span {
+        cursor: pointer;
+        margin-left: 3.7%;
+        justify-content: space-around;
+        color: white;
+        font-size: 1.2em;
+        line-height: 60px; }
+      #services .header .white .aqua ul li {
+        cursor: pointer;
+        display: inline-block; }
+        #services .header .white .aqua ul li:nth-child(5) {
+          background-color: #F57E57; }
+        #services .header .white .aqua ul li:hover {
+          background-color: #F57E57; }
+        #services .header .white .aqua ul li span {
+          text-align: center;
+          justify-content: space-around;
+          color: white;
+          font-size: 1.2em;
+          line-height: 60px; }
+  #services .header .white .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #E5E5E5;
+    position: absolute; }
+    #services .header .white .circle p {
+      text-align: center; }
+      #services .header .white .circle p i {
+        color: #18AFD3;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        line-height: 50px; }
+  #services .header .white .col-md-10 span {
+    line-height: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    position: relative;
+    left: 20px; }
+    #services .header .white .col-md-10 span:hover {
+      border-bottom: 1px solid black; }
+
+/* Image part under header */
+#services .imageContent {
+  background-image: url(..//img/content.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #services .imageContent .container h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 290px; }
+  #services .imageContent .container ul li {
+    list-style-type: none;
+    display: inline-block; }
+    #services .imageContent .container ul li p {
+      color: white; }
+      #services .imageContent .container ul li p:first-child {
+        cursor: pointer; }
+        #services .imageContent .container ul li p:first-child:hover {
+          border-bottom: 1px solid white; }
+    #services .imageContent .container ul li i {
+      color: #cccccc; }
+
+/*Service info part*/
+#services .services {
+  margin-bottom: 180px; }
+  #services .services .container {
+    margin-top: 5%;
+    /* GENERAL DENTISTRY */ }
+    #services .services .container .col-md-3 .leftPart {
+      margin-top: 20%; }
+      #services .services .container .col-md-3 .leftPart ul {
+        list-style: none;
+        border-right: 1px solid #999999; }
+        #services .services .container .col-md-3 .leftPart ul li {
+          cursor: pointer;
+          margin-bottom: 30px; }
+          #services .services .container .col-md-3 .leftPart ul li span {
+            color: #999999;
+            font-size: 1.3em; }
+            #services .services .container .col-md-3 .leftPart ul li span:hover {
+              color: black; }
+    #services .services .container .col-md-9 .general .container-fluid h1 {
+      font-size: 3em;
+      font-weight: 400;
+      color: #434445; }
+    #services .services .container .col-md-9 .general .container-fluid .line {
+      background-color: #F57E57;
+      width: 10%;
+      height: 5px; }
+    #services .services .container .col-md-9 .general .container-fluid p {
+      color: #999999; }
+    #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .myButton {
+      cursor: pointer;
+      height: 40px;
+      width: 120px;
+      background-color: #F57E57;
+      border-radius: 20px; }
+      #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .myButton:hover {
+        background-color: #18AFD3; }
+      #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .myButton p {
+        color: white;
+        line-height: 40px;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: "Oswald", sans-serif; }
+    #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .info .col-md-8 h3 {
+      color: #18AFD3; }
+    #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .info .col-md-8 p:nth-child(2) {
+      font-style: italic; }
+    #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .info .col-md-8 p:last-child {
+      vertical-align: middle; }
+    #services .services .container .col-md-9 .general .container-fluid .row .container-fluid .col-md-6 .info .col-md-8 p i {
+      color: #18AFD3;
+      font-size: 1.5em; }
+
+/*COSMETIC DENTISTRY*/
+#services .cosmetic {
+  display: none;
+  margin-top: -5%; }
+  #services .cosmetic .col-md-9 .myButton {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    background-color: #F57E57;
+    border-radius: 20px; }
+    #services .cosmetic .col-md-9 .myButton:hover {
+      background-color: #18AFD3; }
+    #services .cosmetic .col-md-9 .myButton p {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px; }
+  #services .cosmetic .col-md-9 h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #434445; }
+  #services .cosmetic .col-md-9 .line {
+    background-color: #F57E57;
+    width: 10%;
+    height: 5px; }
+  #services .cosmetic .col-md-9 .contentText {
+    width: 100%; }
+    #services .cosmetic .col-md-9 .contentText p {
+      color: #b2b2b2;
+      font-size: 1.1em; }
+
+/*DENTAL IMPLANT*/
+#services .dental {
+  display: none;
+  margin-top: -5%; }
+  #services .dental .myButton {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    background-color: #F57E57;
+    border-radius: 20px; }
+    #services .dental .myButton p {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px;
+      color: white; }
+    #services .dental .myButton:hover {
+      background-color: #18AFD3; }
+  #services .dental .contentText p {
+    color: #b2b2b2;
+    font-size: 1.1em; }
+  #services .dental .container .col-md-9 h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #434445; }
+  #services .dental .container .col-md-9 .line {
+    background-color: #F57E57;
+    width: 10%;
+    height: 5px; }
+
+/*TEETH WHITENING*/
+#services .teeth {
+  display: none;
+  margin-top: -5%; }
+  #services .teeth .myButton {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    background-color: #F57E57;
+    border-radius: 20px; }
+    #services .teeth .myButton:hover {
+      background-color: #18AFD3; }
+    #services .teeth .myButton p {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px;
+      color: white !important; }
+  #services .teeth .container .col-md-9 h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #434445; }
+  #services .teeth .container .col-md-9 .line {
+    background-color: #F57E57;
+    width: 10%;
+    height: 5px; }
+  #services .teeth .container .col-md-9 .contentText .container ul {
+    margin-top: -3%; }
+    #services .teeth .container .col-md-9 .contentText .container ul li {
+      display: flex;
+      list-style: none; }
+      #services .teeth .container .col-md-9 .contentText .container ul li i {
+        line-height: normal;
+        margin-right: 15px;
+        color: #038EAF; }
+      #services .teeth .container .col-md-9 .contentText .container ul li p {
+        font-weight: 600; }
+  #services .teeth .container .col-md-9 .contentText p {
+    color: #b2b2b2;
+    font-size: 1.1em; }
+
+/*DENTAL CROWNS*/
+#services .crowns {
+  display: none;
+  margin-top: -5%; }
+  #services .crowns .container .col-md-9 h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #434445; }
+  #services .crowns .container .col-md-9 .line {
+    background-color: #F57E57;
+    width: 10%;
+    height: 5px; }
+  #services .crowns .container .col-md-9 .contentText p {
+    color: #b2b2b2;
+    font-size: 1.1em; }
+  #services .crowns .container .col-md-9 .myButton {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    background-color: #F57E57;
+    border-radius: 20px; }
+    #services .crowns .container .col-md-9 .myButton p {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px;
+      color: white !important; }
+    #services .crowns .container .col-md-9 .myButton:hover {
+      background-color: #18AFD3; }
+
+/*DENTURES*/
+#services .dentures {
+  display: none;
+  margin-top: -5%; }
+  #services .dentures .container .col-md-9 h1 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #434445; }
+  #services .dentures .container .col-md-9 .line {
+    background-color: #F57E57;
+    width: 10%;
+    height: 5px; }
+  #services .dentures .container .col-md-9 .myButton {
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    background-color: #F57E57;
+    border-radius: 20px; }
+    #services .dentures .container .col-md-9 .myButton p {
+      color: white;
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px;
+      color: white !important; }
+    #services .dentures .container .col-md-9 .myButton:hover {
+      background-color: #18AFD3; }
+  #services .dentures .container .col-md-9 .contentText .container ul li {
+    list-style: none;
+    display: flex; }
+    #services .dentures .container .col-md-9 .contentText .container ul li i {
+      margin-right: 15px;
+      color: #18AFD3; }
+  #services .dentures .container .col-md-9 .contentText p {
+    color: #b2b2b2;
+    font-size: 1.1em; }
+
+/*Footer part*/
+#services .footer {
+  background-color: #038EAF;
+  height: 380px; }
+  #services .footer .col-md-4:last-child div:nth-child(2) {
+    color: #36c6e8; }
+  #services .footer .col-md-4:last-child div:nth-child(3) .inputBtn {
+    cursor: pointer;
+    bottom: 0px;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 30%;
+    background-color: #F57E57;
+    border-radius: 5px;
+    color: white; }
+    #services .footer .col-md-4:last-child div:nth-child(3) .inputBtn:hover {
+      background-color: #f25927; }
+    #services .footer .col-md-4:last-child div:nth-child(3) .inputBtn p {
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px; }
+  #services .footer .col-md-4:last-child div:nth-child(3) input {
+    border: 1px solid #F57E57;
+    height: 40px;
+    width: 100%; }
+  #services .footer .col-md-4:last-child h4 {
+    letter-spacing: 1px;
+    margin-top: 20%;
+    color: white;
+    font-weight: 400; }
+  #services .footer .col-md-4:nth-child(2) i {
+    margin-right: 10px;
+    float: left;
+    color: #F57E57;
+    font-size: 1.6em; }
+  #services .footer .col-md-4:nth-child(2) div:last-child p {
+    color: #F57E57; }
+  #services .footer .col-md-4:nth-child(2) p {
+    color: white;
+    cursor: pointer; }
+    #services .footer .col-md-4:nth-child(2) p:hover {
+      border-bottom: 1px solid white; }
+  #services .footer .col-md-4:nth-child(2) h4 {
+    letter-spacing: 1px;
+    margin-top: 20%;
+    color: white;
+    font-weight: 400; }
+  #services .footer img {
+    margin-top: 20%; }
+  #services .footer .cprght {
+    margin-top: 20%; }
+    #services .footer .cprght p {
+      color: #91e0f3; }
+  #services .footer .social {
+    margin-top: 20%; }
+    #services .footer .social div {
+      margin-right: 13px;
+      cursor: pointer;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      float: left;
+      background-color: #E5E5E5; }
+      #services .footer .social div:hover {
+        background-color: #F57E57; }
+        #services .footer .social div:hover i {
+          color: white; }
+      #services .footer .social div p {
+        text-align: center; }
+        #services .footer .social div p i {
+          text-align: center;
+          line-height: 40px;
+          font-size: 1.5em;
+          color: #7f7f7f; }
+
+.aqua .headerInput {
+  display: none; }
+  .aqua .headerInput h5 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 2em;
+    line-height: 40px;
+    text-align: left; }
+    .aqua .headerInput h5 i {
+      cursor: pointer;
+      float: right;
+      font-size: 17px;
+      line-height: 40px;
+      margin-right: 3.2%; }
+  .aqua .headerInput input {
+    font-size: 1.7em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 40px;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: none;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    top: -2%; }
+
+/*# sourceMappingURL=service.css.map */

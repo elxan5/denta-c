@@ -1,0 +1,211 @@
+* {
+  transition: .3s all ease;
+  /*font-family:'Oswald', sans-serif;*/ }
+
+.active {
+  display: block; }
+
+h1, h4, span {
+  font-family: "Oswald", sans-serif; }
+
+.padRemove {
+  padding: 0; }
+
+body, html {
+  padding: 0;
+  margin: 0 auto; }
+
+/*Header*/
+#gallery .header .white {
+  padding: 38px 15px 0;
+  height: 160px; }
+  #gallery .header .white .col-md-3 img {
+    cursor: pointer; }
+  #gallery .header .white .aqua {
+    background-color: #18AFD3;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px black;
+    z-index: 1; }
+    #gallery .header .white .aqua ul {
+      list-style: none; }
+      #gallery .header .white .aqua ul span {
+        cursor: pointer;
+        margin-left: 3.7%;
+        justify-content: space-around;
+        color: white;
+        font-size: 1.2em;
+        line-height: 60px; }
+      #gallery .header .white .aqua ul li {
+        cursor: pointer;
+        display: inline-block; }
+        #gallery .header .white .aqua ul li:nth-child(8) {
+          background-color: #F57E57; }
+        #gallery .header .white .aqua ul li:hover {
+          background-color: #F57E57; }
+        #gallery .header .white .aqua ul li span {
+          text-align: center;
+          justify-content: space-around;
+          color: white;
+          font-size: 1.2em;
+          line-height: 60px; }
+  #gallery .header .white .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #E5E5E5;
+    position: absolute; }
+    #gallery .header .white .circle p {
+      text-align: center; }
+      #gallery .header .white .circle p i {
+        color: #18AFD3;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        line-height: 50px; }
+  #gallery .header .white .col-md-10 span {
+    line-height: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    position: relative;
+    left: 20px; }
+    #gallery .header .white .col-md-10 span:hover {
+      border-bottom: 1px solid black; }
+
+.aqua .headerInput {
+  display: none; }
+  .aqua .headerInput h5 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    font-size: 2em;
+    line-height: 40px;
+    text-align: left; }
+    .aqua .headerInput h5 i {
+      cursor: pointer;
+      float: right;
+      font-size: 17px;
+      line-height: 40px;
+      margin-right: 3.2%; }
+  .aqua .headerInput input {
+    font-size: 1.7em;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    line-height: 40px;
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: none;
+    height: 60px;
+    width: 90%;
+    position: absolute;
+    top: -2%; }
+
+/*Header ends*/
+/* Image part under header */
+#gallery .imageContent {
+  background-image: url(..//img/content.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #gallery .imageContent .container h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 290px; }
+  #gallery .imageContent .container ul li {
+    list-style-type: none;
+    display: inline-block; }
+    #gallery .imageContent .container ul li p {
+      color: white; }
+      #gallery .imageContent .container ul li p:first-child {
+        cursor: pointer; }
+        #gallery .imageContent .container ul li p:first-child:hover {
+          border-bottom: 1px solid white; }
+    #gallery .imageContent .container ul li i {
+      color: #cccccc; }
+
+/*Footer part*/
+#gallery .footer {
+  background-color: #038EAF;
+  height: 380px; }
+  #gallery .footer .col-md-4:last-child div:nth-child(2) {
+    color: #36c6e8; }
+  #gallery .footer .col-md-4:last-child div:nth-child(3) .inputBtn {
+    cursor: pointer;
+    bottom: 0px;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    width: 30%;
+    background-color: #F57E57;
+    border-radius: 5px;
+    color: white; }
+    #gallery .footer .col-md-4:last-child div:nth-child(3) .inputBtn:hover {
+      background-color: #f25927; }
+    #gallery .footer .col-md-4:last-child div:nth-child(3) .inputBtn p {
+      font-family: "Oswald", sans-serif;
+      text-align: center;
+      line-height: 40px; }
+  #gallery .footer .col-md-4:last-child div:nth-child(3) input {
+    border: 1px solid #F57E57;
+    height: 40px;
+    width: 100%; }
+  #gallery .footer .col-md-4:last-child h4 {
+    letter-spacing: 1px;
+    margin-top: 20%;
+    color: white;
+    font-weight: 400; }
+  #gallery .footer .col-md-4:nth-child(2) i {
+    margin-right: 10px;
+    float: left;
+    color: #F57E57;
+    font-size: 1.6em; }
+  #gallery .footer .col-md-4:nth-child(2) div:last-child p {
+    color: #F57E57; }
+  #gallery .footer .col-md-4:nth-child(2) p {
+    color: white;
+    cursor: pointer; }
+    #gallery .footer .col-md-4:nth-child(2) p:hover {
+      border-bottom: 1px solid white; }
+  #gallery .footer .col-md-4:nth-child(2) h4 {
+    letter-spacing: 1px;
+    margin-top: 20%;
+    color: white;
+    font-weight: 400; }
+  #gallery .footer img {
+    margin-top: 20%; }
+  #gallery .footer .cprght {
+    margin-top: 20%; }
+    #gallery .footer .cprght p {
+      color: #91e0f3; }
+  #gallery .footer .social {
+    margin-top: 20%; }
+    #gallery .footer .social div {
+      margin-right: 13px;
+      cursor: pointer;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      float: left;
+      background-color: #E5E5E5; }
+      #gallery .footer .social div:hover {
+        background-color: #F57E57; }
+        #gallery .footer .social div:hover i {
+          color: white; }
+      #gallery .footer .social div p {
+        text-align: center; }
+        #gallery .footer .social div p i {
+          text-align: center;
+          line-height: 40px;
+          font-size: 1.5em;
+          color: #7f7f7f; }
+
+/*# sourceMappingURL=masonry.css.map */

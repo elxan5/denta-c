@@ -1,0 +1,384 @@
+* {
+  transition: .5s all ease; }
+
+.active {
+  background-color: #18AFD3; }
+
+h1, h4, span {
+  font-family: "Oswald", sans-serif; }
+
+p {
+  font-family: "Lato", sans-serif; }
+
+.padRemove {
+  padding: 0; }
+
+body, html {
+  padding: 0;
+  margin: 0 auto; }
+
+body {
+  overflow-x: hidden; }
+
+.header {
+  position: absolute;
+  z-index: 1; }
+
+.overlay {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(84, 138, 171, 0.57);
+  height: 100%; }
+
+/*Header*/
+#home #myCarousel .header {
+  padding: 35px 18px; }
+  #home #myCarousel .header .col-md-10 span a {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 25px; }
+  #home #myCarousel .header .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #18AFD3; }
+    #home #myCarousel .header .circle i {
+      line-height: 50px;
+      color: white;
+      font-size: 30px;
+      margin-left: 15px; }
+#home #myCarousel ol {
+  top: 800px; }
+  #home #myCarousel ol li {
+    margin-right: 20px;
+    background-color: #F57E57 !important;
+    border: none;
+    box-shadow: 0px 0px 30px 6px #F57E57; }
+
+.overlay .col-md-4 {
+  border-radius: 10px;
+  margin-top: 170px;
+  z-index: 0;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.4) !important; }
+  .overlay .col-md-4 p, .overlay .col-md-4 h3 {
+    color: gray; }
+  .overlay .col-md-4 input, .overlay .col-md-4 select {
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none; }
+  .overlay .col-md-4 button {
+    margin-top: 30px;
+    height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    background: #F57E57;
+    outline: none;
+    border: none; }
+    .overlay .col-md-4 button:hover {
+      background-color: #18AFD3; }
+    .overlay .col-md-4 button span {
+      color: white; }
+.overlay .col-md-8 h1 {
+  text-align: left;
+  color: white;
+  font-size: 3.7em;
+  margin-top: 250px;
+  font-weight: 400; }
+.overlay .col-md-8 p {
+  color: white;
+  font-size: 1.5em; }
+.overlay .col-md-8 .mybtn {
+  cursor: pointer;
+  height: 45px;
+  width: 200px;
+  border-radius: 25px;
+  background: #F57E57;
+  outline: none;
+  border: none; }
+  .overlay .col-md-8 .mybtn:hover {
+    background-color: #18AFD3; }
+  .overlay .col-md-8 .mybtn span {
+    color: white; }
+
+/*Header ended*/
+/*Work Table*/
+.workTable {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .workTable .container .row {
+    margin-bottom: 40px; }
+    .workTable .container .row .col-md-10 p {
+      font-family: "Lato", sans-serif;
+      margin-top: 100px; }
+    .workTable .container .row .col-md-10:last-child span {
+      font-family: "Lato", sans-serif; }
+    .workTable .container .row .col-md-10:last-child h3 {
+      margin-top: 100px; }
+    .workTable .container .row .col-md-6 .col-md-2 {
+      border-radius: 7px 0px 0px 7px;
+      height: 260px;
+      background-color: #18AFD3; }
+      .workTable .container .row .col-md-6 .col-md-2 span {
+        margin-left: 10px;
+        height: 250px;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-size: 1.2em;
+        white-space: nowrap;
+        color: white;
+        text-align: center; }
+    .workTable .container .row .col-md-6 .col-md-10 {
+      border-radius: 0px 7px 7px 0px;
+      height: 260px;
+      background-color: #F1F3F9; }
+      .workTable .container .row .col-md-6 .col-md-10 h3 a {
+        color: black; }
+      .workTable .container .row .col-md-6 .col-md-10 p {
+        font-size: 1.1em; }
+      .workTable .container .row .col-md-6 .col-md-10 i {
+        margin-top: 20px;
+        float: left;
+        color: #F57E57;
+        font-size: 2.4em;
+        line-height: 80px; }
+
+/*Work Table ended*/
+.container .col-md-4 {
+  background: white; }
+  .container .col-md-4 .col-md-10 h1 {
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 30px; }
+  .container .col-md-4 .col-md-10 p {
+    color: gray;
+    margin-left: 30px; }
+  .container .col-md-4 .col-md-2 .circle {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background: #F57E57; }
+    .container .col-md-4 .col-md-2 .circle i {
+      color: white;
+      line-height: 80px;
+      margin-left: 22px;
+      font-size: 3em; }
+.container h1 {
+  text-align: center;
+  font-size: 3.3em;
+  font-weight: 400; }
+.container .line {
+  height: 4px;
+  width: 100px;
+  background: #F57E57;
+  margin: 0 auto; }
+
+.why {
+  margin-bottom: 80px; }
+
+/*Our Services*/
+.ourS {
+  background-color: #F1F3F9; }
+
+.ourServices {
+  margin-bottom: 80px; }
+  .ourServices button {
+    border-radius: 25px;
+    border: none;
+    height: 45px;
+    width: 180px;
+    background-color: #F57E57; }
+    .ourServices button:hover {
+      background-color: #18AFD3; }
+    .ourServices button span {
+      color: white;
+      text-align: center;
+      line-height: 45px;
+      font-size: 1.1em; }
+  .ourServices .col-md-4 {
+    background-color: #F1F3F9; }
+    .ourServices .col-md-4 .banner {
+      position: relative;
+      left: 120px;
+      bottom: 60px;
+      height: 45px;
+      width: 230px;
+      border-radius: 8px;
+      background: #18AFD3; }
+      .ourServices .col-md-4 .banner span {
+        color: white;
+        font-size: 1.5em;
+        line-height: 45px;
+        margin-left: 10px; }
+      .ourServices .col-md-4 .banner:hover {
+        background-color: #F57E57; }
+  .ourServices p {
+    text-align: center;
+    color: gray; }
+  .ourServices h1 {
+    font-weight: 400;
+    font-size: 3.3em;
+    text-align: center; }
+  .ourServices .line {
+    height: 4px;
+    width: 100px;
+    background: #F57E57; }
+
+/*testimonials*/
+.fquote {
+  background-color: #18AFD3; }
+
+.tquote, .squote {
+  background-color: lightgray; }
+
+.testimonials .rightTest {
+  height: 570px; }
+  .testimonials .rightTest .quotes .btns div {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    top: 380px;
+    cursor: pointer; }
+    .testimonials .rightTest .quotes .btns div:hover {
+      background-color: #18AFD3; }
+  .testimonials .rightTest .quotes .sliders .bir, .testimonials .rightTest .quotes .sliders .iki, .testimonials .rightTest .quotes .sliders .uch {
+    position: absolute; }
+    .testimonials .rightTest .quotes .sliders .bir .row .col-md-10 .department span, .testimonials .rightTest .quotes .sliders .iki .row .col-md-10 .department span, .testimonials .rightTest .quotes .sliders .uch .row .col-md-10 .department span {
+      color: gray;
+      font-family: "Lato", sans-serif;
+      font-size: 1em; }
+    .testimonials .rightTest .quotes .sliders .bir .row .col-md-10 .name span, .testimonials .rightTest .quotes .sliders .iki .row .col-md-10 .name span, .testimonials .rightTest .quotes .sliders .uch .row .col-md-10 .name span {
+      color: #18AFD3;
+      font-size: 1.8em;
+      font-family: "Lato", sans-serif;
+      font-style: bold; }
+    .testimonials .rightTest .quotes .sliders .bir .row .img-circle, .testimonials .rightTest .quotes .sliders .iki .row .img-circle, .testimonials .rightTest .quotes .sliders .uch .row .img-circle {
+      border-radius: 50%; }
+    .testimonials .rightTest .quotes .sliders .bir p, .testimonials .rightTest .quotes .sliders .iki p, .testimonials .rightTest .quotes .sliders .uch p {
+      color: #868686;
+      font-style: italic;
+      font-size: 1.8em; }
+    .testimonials .rightTest .quotes .sliders .bir h1 i, .testimonials .rightTest .quotes .sliders .iki h1 i, .testimonials .rightTest .quotes .sliders .uch h1 i {
+      color: #18AFD3;
+      font-size: 30px; }
+  .testimonials .rightTest h1 {
+    margin-top: 40px;
+    font-size: 3.5em;
+    text-align: left;
+    font-weight: 400; }
+  .testimonials .rightTest .line {
+    text-align: left;
+    height: 4px;
+    width: 100px;
+    background: #F57E57; }
+.testimonials .leftTest {
+  height: 570px;
+  background-repeat: no-repeat;
+  background-image: url(..//img-home/background-05-960x678.jpg); }
+  .testimonials .leftTest button {
+    border-radius: 25px;
+    border: none;
+    height: 45px;
+    width: 180px;
+    background-color: #F57E57; }
+    .testimonials .leftTest button:hover {
+      background-color: #18AFD3; }
+    .testimonials .leftTest button span {
+      color: white;
+      text-align: center;
+      line-height: 45px;
+      font-size: 1.3em; }
+  .testimonials .leftTest h1 {
+    font-size: 4.2em;
+    font-weight: 400;
+    color: white;
+    margin-top: 170px; }
+  .testimonials .leftTest p {
+    color: white; }
+
+.iki, .uch {
+  display: none; }
+
+/*Our Team*/
+.t1 {
+  background-color: #18AFD3; }
+
+.t2, .t3 {
+  background-color: lightgray; }
+
+.ourTeam {
+  height: 600px;
+  background-color: #F1F3F9; }
+  .ourTeam .buttons {
+    display: table;
+    margin: 0 auto; }
+    .ourTeam .buttons .t1, .ourTeam .buttons .t2, .ourTeam .buttons .t3 {
+      margin-top: 300px;
+      position: relative;
+      width: 12px;
+      height: 12px;
+      border-radius: 100%;
+      float: left;
+      top: 0;
+      margin-right: 20px;
+      cursor: pointer; }
+      .ourTeam .buttons .t1:hover, .ourTeam .buttons .t2:hover, .ourTeam .buttons .t3:hover {
+        background-color: #18AFD3; }
+  .ourTeam .team .team1, .ourTeam .team .team2, .ourTeam .team .team3 {
+    position: absolute; }
+    .ourTeam .team .team1 .col-md-4, .ourTeam .team .team2 .col-md-4, .ourTeam .team .team3 .col-md-4 {
+      background-color: #F1F3F9; }
+      .ourTeam .team .team1 .col-md-4 button, .ourTeam .team .team2 .col-md-4 button, .ourTeam .team .team3 .col-md-4 button {
+        background-color: #F57E57;
+        height: 40px;
+        width: 150px;
+        border-radius: 30px;
+        border: none; }
+        .ourTeam .team .team1 .col-md-4 button:hover, .ourTeam .team .team2 .col-md-4 button:hover, .ourTeam .team .team3 .col-md-4 button:hover {
+          background-color: #18AFD3; }
+        .ourTeam .team .team1 .col-md-4 button span, .ourTeam .team .team2 .col-md-4 button span, .ourTeam .team .team3 .col-md-4 button span {
+          color: white;
+          font-size: 1.1em; }
+      .ourTeam .team .team1 .col-md-4 .info p, .ourTeam .team .team2 .col-md-4 .info p, .ourTeam .team .team3 .col-md-4 .info p {
+        color: gray;
+        font-size: 1.1em; }
+      .ourTeam .team .team1 .col-md-4 .bio .col-md-8 .phone i, .ourTeam .team .team2 .col-md-4 .bio .col-md-8 .phone i, .ourTeam .team .team3 .col-md-4 .bio .col-md-8 .phone i {
+        color: #18AFD3;
+        font-size: 2em;
+        float: left;
+        margin-right: 10px; }
+      .ourTeam .team .team1 .col-md-4 .bio .col-md-8 .phone p, .ourTeam .team .team2 .col-md-4 .bio .col-md-8 .phone p, .ourTeam .team .team3 .col-md-4 .bio .col-md-8 .phone p {
+        float: left;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.3em;
+        letter-spacing: .5px; }
+      .ourTeam .team .team1 .col-md-4 .bio .col-md-8 span, .ourTeam .team .team2 .col-md-4 .bio .col-md-8 span, .ourTeam .team .team3 .col-md-4 .bio .col-md-8 span {
+        color: gray;
+        font-family: "Lato", sans-serif; }
+      .ourTeam .team .team1 .col-md-4 .bio .col-md-8 h2, .ourTeam .team .team2 .col-md-4 .bio .col-md-8 h2, .ourTeam .team .team3 .col-md-4 .bio .col-md-8 h2 {
+        color: #18AFD3;
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        margin: 0; }
+  .ourTeam h1 {
+    margin-top: 80px;
+    font-size: 3.5em;
+    font-weight: 400;
+    text-align: center; }
+
+.team2 {
+  right: -200%; }
+
+.team3 {
+  right: -300%; }
+
+/*# sourceMappingURL=home.css.map */
