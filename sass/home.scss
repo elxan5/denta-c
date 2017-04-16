@@ -5,7 +5,7 @@ $frthColor:#038EAF;
 $myFont:'Oswald', sans-serif;
 $lato: 'Lato', sans-serif;
 *{
-  transition: .5s all ease;
+  transition: .3s all ease;
 }
 .active{
   background-color: #18AFD3;
@@ -726,23 +726,67 @@ body{
 /*Side menu*/
 
 .sideMenu{
+  box-shadow: 1px 0px 5px 0px black;
   z-index: 100;
   position: fixed;
   left:0;
-  width: 25%;
+  width: 20%;
   background-color:white;
-  height: 100%;
+  height: 3000px;
   div{
     &:nth-child(2){
       ul{
+        li{
+          &:nth-child(4){
+            p{
+              i{
+                font-size: .7em;
+                vertical-align: middle;
+                float: right;
+                position: relative;
+                right: 50px;
+              }
+            }
+            li{
+              display: none;
+              padding: 10px 0px;
+              a{
+                color:lighten($secColor, 10%);
+                text-decoration: none;
+                position: relative;
+                left: -40px;
+                &:hover{
+                  padding: 0px 20px;
+                  color:darken($secColor, 15%);
+                }
+              }
+            }
+          }
+          &:first-child{
+            p{
+              color:darken($secColor, 15%);
+            }
+          }
+          p{
+            font-size: 1.3em;
+            color:lighten($secColor, 10%);
+            font-family: $myFont !important;
+            margin:30px 0px;
+            &:hover{
+              color: darken($secColor, 15%);
+              cursor: pointer;
+            }
+          }
+        }
         list-style-type: none;
+        margin-left:15px;
       }
     }
     &:first-child{
       i{
         color:$secColor;
         position: absolute;
-        right:40px;
+        right:60px;
         cursor: pointer;
         top:80px;
         font-size: 1.2em;

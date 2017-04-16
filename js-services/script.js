@@ -61,3 +61,9 @@ $(".aqua h5 i").click(function(){
 	$(".aqua ul li").show("slow");
 	$(".aqua .headerInput").css({"display":"none"});
 });
+
+$(".pages p").click(function(){
+	$(".pages ul li").css({
+		"display":"block";
+	})
+})
