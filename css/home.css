@@ -529,13 +529,14 @@ body {
 
 /*Side menu*/
 .sideMenu {
+  overflow: scroll;
   box-shadow: 1px 0px 5px 0px black;
   z-index: 100;
   position: fixed;
   left: 0;
-  width: 20%;
+  width: 300px;
   background-color: white;
-  height: 3000px; }
+  height: 100%; }
   .sideMenu div:nth-child(2) ul {
     list-style-type: none;
     margin-left: 15px; }
@@ -545,6 +546,8 @@ body {
       float: right;
       position: relative;
       right: 50px; }
+    .sideMenu div:nth-child(2) ul li:nth-child(4) .activePage {
+      display: block; }
     .sideMenu div:nth-child(2) ul li:nth-child(4) li {
       display: none;
       padding: 10px 0px; }
@@ -569,16 +572,14 @@ body {
   .sideMenu div:first-child i {
     color: #F57E57;
     position: absolute;
-    right: 60px;
+    right: 50px;
     cursor: pointer;
     top: 80px;
     font-size: 1.2em; }
-  .sideMenu div:first-child input {
-    margin: auto;
-    display: table;
+  .sideMenu div:first-child .container input {
     margin-top: 60px;
     height: 50px;
-    width: 280px;
+    width: 250px;
     border-radius: 6px;
     outline: none; }
 

@@ -56,3 +56,13 @@ $(".t3").click(function(){
     "right":"300%"
   });
 })
+
+// $(".pages").click(function(){
+//   $(".pages ul li").css({
+//     "display":"block"
+//   })
+// })
+
+$(".pages").click(function(){
+  $(".pages ul li").toggleClass("activePage");
+});

@@ -726,13 +726,14 @@ body{
 /*Side menu*/
 
 .sideMenu{
+  overflow: scroll;
   box-shadow: 1px 0px 5px 0px black;
   z-index: 100;
   position: fixed;
   left:0;
-  width: 20%;
+  width: 300px;
   background-color:white;
-  height: 3000px;
+  height: 100%;
   div{
     &:nth-child(2){
       ul{
@@ -746,6 +747,9 @@ body{
                 position: relative;
                 right: 50px;
               }
+            }
+            .activePage{
+              display:block;
             }
             li{
               display: none;
@@ -786,19 +790,19 @@ body{
       i{
         color:$secColor;
         position: absolute;
-        right:60px;
+        right:50px;
         cursor: pointer;
         top:80px;
         font-size: 1.2em;
       }
-      input{
-        margin:auto;
-        display: table;
-        margin-top:60px;
-        height: 50px;
-        width: 280px;
-        border-radius: 6px;
-        outline: none;
+      .container{
+        input{
+          margin-top:60px;
+          height: 50px;
+          width: 250px;
+          border-radius: 6px;
+          outline: none;
+        }
       }
     }
   }

@@ -390,13 +390,13 @@ h1, h4, span{
         .line{
           background-color: $secColor;
           width: 10%;
-          height: 5px;         
+          height: 5px;
         }
         .contentText{
           p{
             color:darken($thrdColor, 20%);
             font-size:1.1em;
-          }         
+          }
         }
         .myButton{
           cursor: pointer;
@@ -435,7 +435,7 @@ h1, h4, span{
         .line{
           background-color: $secColor;
           width: 10%;
-          height: 5px; 
+          height: 5px;
         }
         .myButton{
           cursor: pointer;
@@ -448,10 +448,10 @@ h1, h4, span{
             font-family:$myFont;
             text-align: center;
             line-height: 40px;
-            color:white !important;            
+            color:white !important;
           }
             &:hover{
-              background-color: $mainColor;          
+              background-color: $mainColor;
         }
       }
         .contentText{
