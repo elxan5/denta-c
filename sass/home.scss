@@ -70,7 +70,9 @@ body{
       }
     }
     ol{
-      top:600px;
+      margin: 0 auto;
+      left:60px;
+      top:520px;
       li{
         margin-right:20px;
         background-color:$secColor !important;
@@ -726,11 +728,11 @@ body{
 /*Side menu*/
 
 .sideMenu{
+  left:-100%;
   overflow: scroll;
   box-shadow: 1px 0px 5px 0px black;
-  z-index: 100;
+  z-index: 50;
   position: fixed;
-  left:0;
   width: 300px;
   background-color:white;
   height: 100%;
@@ -804,6 +806,73 @@ body{
           outline: none;
         }
       }
+    }
+  }
+}
+
+.activeOpener{
+  left:270px;
+}
+
+.opener{
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  z-index: 100;
+  position: fixed;
+  left:30px;
+  top:100px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0px black;
+  &:hover{
+    background-color: $mainColor;
+    span{
+      color: white;
+    }
+  }
+  span{
+    span{
+      &:nth-child(2){
+        display: none;
+      }
+      position: absolute;
+      color:$mainColor;
+      line-height: 60px;
+      margin-left: 20px;
+      font-size: 1.6em;
+    }
+  }
+}
+.openMenu{
+  left:0;
+}
+.openButton{
+  left:270px;
+}
+
+.toTop{
+  background-color: $secColor;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 100;
+  position: fixed;
+  right:30px;
+  bottom:50px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0px black;
+  span{
+    color: white;
+    position: absolute;
+    line-height: 60px;
+    margin-left: 23px;
+    font-size: 1.6em;
+  }
+  &:hover{
+    background-color: $mainColor;
+    span{
+      color: white;
     }
   }
 }

@@ -57,12 +57,31 @@ $(".t3").click(function(){
   });
 })
 
-// $(".pages").click(function(){
-//   $(".pages ul li").css({
-//     "display":"block"
-//   })
-// })
 
 $(".pages").click(function(){
   $(".pages ul li").toggleClass("activePage");
+});
+
+
+$(".opener").click(function(){
+  $(".opener span span:first-child").hide();
+  $(".opener span span:last-child").show();
+})
+
+$(".opener").click(function(){
+  $(".openButton span span:first-child").show();
+  $(".openButton span span:last-child").hide();
+})
+
+$(".opener").click(function(){
+  $(this.i).css({
+    "transform":"rotate(90deg)"
+  });
+  $(this).toggleClass("openButton");
+  $(".sideMenu").toggleClass("openMenu");
+})
+
+$(".toTop").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
 });

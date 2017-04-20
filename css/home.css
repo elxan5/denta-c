@@ -52,7 +52,9 @@ body {
       font-size: 30px;
       margin-left: 15px; }
 #home #myCarousel ol {
-  top: 600px; }
+  margin: 0 auto;
+  left: 60px;
+  top: 520px; }
   #home #myCarousel ol li {
     margin-right: 20px;
     background-color: #F57E57 !important;
@@ -529,11 +531,11 @@ body {
 
 /*Side menu*/
 .sideMenu {
+  left: -100%;
   overflow: scroll;
   box-shadow: 1px 0px 5px 0px black;
-  z-index: 100;
+  z-index: 50;
   position: fixed;
-  left: 0;
   width: 300px;
   background-color: white;
   height: 100%; }
@@ -582,5 +584,60 @@ body {
     width: 250px;
     border-radius: 6px;
     outline: none; }
+
+.activeOpener {
+  left: 270px; }
+
+.opener {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  z-index: 100;
+  position: fixed;
+  left: 30px;
+  top: 100px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0px black; }
+  .opener:hover {
+    background-color: #18AFD3; }
+    .opener:hover span {
+      color: white; }
+  .opener span span {
+    position: absolute;
+    color: #18AFD3;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 1.6em; }
+    .opener span span:nth-child(2) {
+      display: none; }
+
+.openMenu {
+  left: 0; }
+
+.openButton {
+  left: 270px; }
+
+.toTop {
+  background-color: #F57E57;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 100;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0px black; }
+  .toTop span {
+    color: white;
+    position: absolute;
+    line-height: 60px;
+    margin-left: 23px;
+    font-size: 1.6em; }
+  .toTop:hover {
+    background-color: #18AFD3; }
+    .toTop:hover span {
+      color: white; }
 
 /*# sourceMappingURL=home.css.map */
