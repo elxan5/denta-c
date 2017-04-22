@@ -52,9 +52,10 @@ body {
       font-size: 30px;
       margin-left: 15px; }
 #home #myCarousel ol {
+  position: absolute;
   margin: 0 auto;
-  left: 60px;
-  top: 520px; }
+  left: 170px;
+  top: 580px; }
   #home #myCarousel ol li {
     margin-right: 20px;
     background-color: #F57E57 !important;
@@ -341,6 +342,8 @@ body {
       cursor: pointer; }
       .ourTeam .buttons .t1:hover, .ourTeam .buttons .t2:hover, .ourTeam .buttons .t3:hover {
         background-color: #18AFD3; }
+  .ourTeam .team .team2 {
+    right: -220%; }
   .ourTeam .team .team1, .ourTeam .team .team2, .ourTeam .team .team3 {
     position: absolute; }
     .ourTeam .team .team1 .col-md-4, .ourTeam .team .team2 .col-md-4, .ourTeam .team .team3 .col-md-4 {
@@ -542,35 +545,40 @@ body {
   .sideMenu div:nth-child(2) ul {
     list-style-type: none;
     margin-left: 15px; }
-    .sideMenu div:nth-child(2) ul li:nth-child(4) p i {
-      font-size: .7em;
-      vertical-align: middle;
-      float: right;
-      position: relative;
-      right: 50px; }
-    .sideMenu div:nth-child(2) ul li:nth-child(4) .activePage {
-      display: block; }
-    .sideMenu div:nth-child(2) ul li:nth-child(4) li {
-      display: none;
-      padding: 10px 0px; }
-      .sideMenu div:nth-child(2) ul li:nth-child(4) li a {
-        color: #f8a387;
-        text-decoration: none;
-        position: relative;
-        left: -40px; }
-        .sideMenu div:nth-child(2) ul li:nth-child(4) li a:hover {
-          padding: 0px 20px;
-          color: #f1470f; }
-    .sideMenu div:nth-child(2) ul li:first-child p {
-      color: #f1470f; }
-    .sideMenu div:nth-child(2) ul li p {
-      font-size: 1.3em;
-      color: #f8a387;
-      font-family: "Oswald", sans-serif !important;
+    .sideMenu div:nth-child(2) ul li {
       margin: 30px 0px; }
-      .sideMenu div:nth-child(2) ul li p:hover {
-        color: #f1470f;
-        cursor: pointer; }
+      .sideMenu div:nth-child(2) ul li:nth-child(4) p i, .sideMenu div:nth-child(2) ul li:nth-child(8) p i, .sideMenu div:nth-child(2) ul li:nth-child(9) p i {
+        font-size: .7em;
+        vertical-align: middle;
+        float: right;
+        position: relative;
+        right: 50px; }
+      .sideMenu div:nth-child(2) ul li:nth-child(4) .activePage, .sideMenu div:nth-child(2) ul li:nth-child(8) .activePage, .sideMenu div:nth-child(2) ul li:nth-child(9) .activePage {
+        display: block; }
+      .sideMenu div:nth-child(2) ul li:nth-child(4) li, .sideMenu div:nth-child(2) ul li:nth-child(8) li, .sideMenu div:nth-child(2) ul li:nth-child(9) li {
+        display: none;
+        padding: 10px 0px; }
+        .sideMenu div:nth-child(2) ul li:nth-child(4) li a, .sideMenu div:nth-child(2) ul li:nth-child(8) li a, .sideMenu div:nth-child(2) ul li:nth-child(9) li a {
+          font-family: "Lato", sans-serif !important;
+          font-size: 16px;
+          color: #f8a387;
+          text-decoration: none;
+          position: relative;
+          left: -40px; }
+          .sideMenu div:nth-child(2) ul li:nth-child(4) li a:hover, .sideMenu div:nth-child(2) ul li:nth-child(8) li a:hover, .sideMenu div:nth-child(2) ul li:nth-child(9) li a:hover {
+            padding: 0px 20px;
+            color: #f1470f; }
+      .sideMenu div:nth-child(2) ul li:first-child p {
+        color: #f1470f !important; }
+      .sideMenu div:nth-child(2) ul li a {
+        text-decoration: none;
+        font-size: 1.3em;
+        color: #f8a387 !important;
+        font-family: "Oswald", sans-serif !important;
+        padding: 20px 0px; }
+        .sideMenu div:nth-child(2) ul li a:hover {
+          color: #f1470f !important;
+          cursor: pointer; }
   .sideMenu div:first-child i {
     color: #F57E57;
     position: absolute;

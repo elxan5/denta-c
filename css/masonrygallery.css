@@ -1,0 +1,23 @@
+div {
+  float: left; }
+  div img {
+    padding: 10px 10px 10px 10px;
+    width: 100%; }
+
+.buttons {
+  border-bottom: 1px solid gray;
+  width: 100%; }
+  .buttons ul {
+    list-style-type: none; }
+    .buttons ul li {
+      display: inline-block;
+      color: gray;
+      font-size: 1.7em;
+      padding: 0px 17px;
+      cursor: pointer; }
+      .buttons ul li:hover {
+        color: black; }
+      .buttons ul li:first-child {
+        color: black; }
+
+/*# sourceMappingURL=masonrygallery.css.map */

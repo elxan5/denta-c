@@ -11,6 +11,9 @@ h1, h4, span {
 .padRemove {
   padding: 0; }
 
+body {
+  overflow-x: hidden; }
+
 /*Header*/
 #services .header .white {
   padding: 38px 15px 0;

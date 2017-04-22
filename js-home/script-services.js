@@ -64,6 +64,6 @@ $(".aqua h5 i").click(function(){
 
 $(".pages p").click(function(){
 	$(".pages ul li").css({
-		"display":"block";
+		"display":"block"
 	})
 })

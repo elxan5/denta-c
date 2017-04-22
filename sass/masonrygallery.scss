@@ -1,0 +1,28 @@
+div{
+  float: left;
+  img{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+  }
+}
+
+.buttons{
+  border-bottom: 1px solid gray;
+  width: 100%;
+  ul{
+    list-style-type: none;
+    li{
+      &:hover{
+        color:black;
+      }
+      &:first-child{
+        color:black;
+      }
+      display: inline-block;
+      color:gray;
+      font-size:1.7em;
+      padding: 0px 17px;
+      cursor: pointer;
+    }
+  }
+}

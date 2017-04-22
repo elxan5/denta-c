@@ -36,8 +36,7 @@ $(".t1").click(function(){
   $(this).css({"background-color":"#18AFD3"});
   $(".t2, .t3").css({"background-color":"lightgray"});
   $(".team1").show();
-  $(".team3").css({"right":"-500%"});
-  $(".team2").css({"right":"-200%"})
+  $(".team2").css({"right":"-220%"})
 })
 
 $(".t2").click(function(){
@@ -60,6 +59,21 @@ $(".t3").click(function(){
 
 $(".pages").click(function(){
   $(".pages ul li").toggleClass("activePage");
+  $(".pages ul li").show();
+  $(".pages1 ul li").hide();
+  $(".pages2 ul li").hide();
+});
+$(".pages1").click(function(){
+  $(".pages1 ul li").toggleClass("activePage");
+  $(".pages1 ul li").show();
+  $(".pages ul li").hide();
+  $(".pages2 ul li").hide();
+});
+$(".pages2").click(function(){
+  $(".pages2 ul li").toggleClass("activePage");
+  $(".pages2 ul li").show();
+  $(".pages ul li").hide();
+  $(".pages1 ul li").hide();
 });
 
 
